@@ -1,0 +1,9 @@
+@mixin text($fw, $fs, $ln, $fc){
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $ln;
+  color: $fc;
+}

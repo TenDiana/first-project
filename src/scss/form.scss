@@ -1,0 +1,36 @@
+.form{
+  padding-top: 85px;
+  &__title{
+    @include text(600, 18px, 22px, #000000);
+  }
+  &__sub{
+    @include text(normal, 16px, 25px, #999999);
+    margin: 20px 0 30px;
+  }
+  &__box{
+    display: flex;
+    width: 489px;
+    margin: 0 auto 35px;
+  }
+  &__btn{
+    @include button(190px, 45px);
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+  }
+  &__email{
+    @include text(normal, 13px, 21px, #999999);
+    text-align: start;
+    padding-left: 33px;
+    outline: none;
+    width: 299px;
+    height: 45px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px 0 0 30px;
+  }
+  &__end{
+    @include text(normal, 13px, 21px, #999999);
+    margin-bottom: 85px;
+  }
+}

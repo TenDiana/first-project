@@ -1,0 +1,33 @@
+.header{
+  width: 100%;
+  position: absolute;
+  border-bottom: 1px solid #A1A1A150;
+    &__nav{
+      height: 100px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+  }
+  &__item{
+    margin-right: 40px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    &:hover::before{
+      position: absolute;
+      content: " ";
+      width: calc(100% + 40px);
+      text-align: center;
+      border: 1px solid #FFFFFF;
+      top: 59px;
+      transition: 0.5s;
+      left: -20px;
+    }
+  }
+}

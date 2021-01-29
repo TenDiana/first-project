@@ -1,0 +1,52 @@
+.work{
+  height: 490px;
+  background-image: url("../images/work/Rectangle.png");
+  margin-bottom: 482px;
+    &__title{
+    @include text(bold, 36px, 53px, #FFFFFF);
+    padding-top: 100px;
+    text-align: start;
+    margin-bottom: 0;
+  }
+  &__btn{
+    @include button(200px, 45px);
+    margin-top: 120px;
+    margin-right: 0;
+  }
+  &__col{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__img{
+    width: 336px;
+    height: 290px;
+  }
+ &__col-title{
+   @include text(600, 18px, 22px, #000000);
+   text-align: start;
+   margin-top: 30px;
+ }
+  &__col-color{
+    color: #4985FF;
+  }
+  &__col-sub{
+    @include text(400, 16px, 27px, #999999);
+    text-align: start;
+    margin: 30px 0 30px;
+    width: 350px;
+    height: 117px;
+  }
+  &__col-link{
+    @include text(500, 16px, 20px, #4985FF);
+   text-decoration-line: underline;
+    position: relative;
+  }
+  &__border{
+    width: 1059px;
+    height: 1px;
+    background: #E0E0E0;
+    margin: 85px 0 85px;
+  }
+}

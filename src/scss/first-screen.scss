@@ -1,0 +1,17 @@
+.first-screen{
+  padding: 319px 0 335px;
+  background: url("../images/first-screen/Rectangle.png") center/cover no-repeat;
+  text-align: center;
+    &__title{
+      @include text(500, 16px, 20px, #FFFFFF);
+      margin-bottom: 20px;
+   }
+  &__sub{
+    @include text(800, 48px, 64px, #FFFFFF);
+    margin-bottom: 50px;
+  }
+  &__btn{
+    @include button(200px, 45px);
+  }
+
+}

@@ -1,0 +1,16 @@
+@mixin button($w, $h){
+  outline: none;
+  width: $w;
+  height: $h;
+  background: #4985FF;
+  border-radius: 30px;
+  border: none;
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}

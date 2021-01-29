@@ -1,0 +1,64 @@
+.services {
+  padding: 110px 0 105px;
+  &__title {
+    @include text(bold, 36px, 53px, #323232);
+    margin: 0 auto;
+  }
+  &__sub{
+    @include text(normal, 16px, 25px, #999999);
+    margin: 50px 0 105px ;
+  }
+  &__icons{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 90px;
+      height: 90px;
+      border: 1px solid #4985FF;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &:after{
+      position: absolute;
+      content: '';
+      width: 110px;
+      height: 110px;
+      border: 1px solid #E0E0E0;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__col{
+    display: flex;
+    margin-bottom: 55px;
+  }
+  &__text{
+    margin-left: 52px;
+  }
+  &__text-title{
+    @include text(600, 18px, 22px, #000000);
+    margin: 11px 0 12px;
+    text-align: start;
+  }
+  &__text-sub{
+    @include text(normal, 14px, 22px, #999999);
+    text-align: start;
+  }
+  &__btns{
+    text-align: center;
+  }
+  &__btn{
+    @include button(200px, 45px);
+  }
+}

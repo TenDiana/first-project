@@ -1,0 +1,56 @@
+.projects {
+  padding-bottom: 70px;
+  background: #F6F6F8;
+
+  &__title {
+    @include text(bold, 36px, 53px, #323232);
+    text-align: start;
+    margin: 152px 0 40px;
+  }
+
+  &__sub {
+    @include text(normal, 16px, 25px, #999999);
+    text-align: start;
+    margin-bottom: 30px;
+  }
+  &__link{
+    @include text(500, 16px, 20px, #4985FF);
+  }
+
+  &__img {
+    object-fit: contain;
+    width: 500px;
+    height: 400px;
+    margin: 100px 0 90px;
+  }
+  &__row{
+    border-bottom: 1px solid #E0E0E0;
+  }
+  &__footer {
+    padding-top: 70px;
+  }
+  &__column{
+    width: 104px;
+    height: 67px;
+
+  }
+  &__column-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__column-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+  }
+  &__column-price {
+    @include text(nolmal, 36px, 53px, #000000);
+    margin-bottom: 0;
+  }
+  &__column-bottom{
+    @include text(normal, 16px, 25px, #999999);
+    text-align: start;
+    padding-bottom: 70px;
+  }
+}

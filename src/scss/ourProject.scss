@@ -1,0 +1,19 @@
+.ourProject {
+  padding-top: 100px;
+  background: #F6F6F8;
+
+  &__title {
+    @include text(bold, 36px, 53px, #000000);
+    margin-bottom: 50px;
+  }
+
+  &__subtitle {
+    @include text(normal, 16px, 25px, #999999);
+    margin-bottom: 70px;
+  }
+
+  &__btn {
+    @include button(200px, 45px);
+    margin: 50px 0 130px;
+  }
+}

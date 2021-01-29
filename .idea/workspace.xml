@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f8acfa3-0208-4f37-b19a-e92cdcc185ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Sass File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mI0DsRMRvsJt2zHLShilV7GA0t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f8acfa3-0208-4f37-b19a-e92cdcc185ac" name="Default Changelist" comment="" />
+      <created>1609165680351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609165680351</updated>
+      <workItem from="1609165683350" duration="1602000" />
+      <workItem from="1609587625332" duration="15260000" />
+      <workItem from="1609756368927" duration="13546000" />
+      <workItem from="1609772346694" duration="236000" />
+      <workItem from="1609773367672" duration="73000" />
+      <workItem from="1609774271260" duration="1477000" />
+      <workItem from="1609775811961" duration="11000" />
+      <workItem from="1609861397101" duration="2733000" />
+      <workItem from="1609912428696" duration="8603000" />
+      <workItem from="1609940986430" duration="14153000" />
+      <workItem from="1610030510919" duration="8521000" />
+      <workItem from="1610109611131" duration="14425000" />
+      <workItem from="1610168149081" duration="2380000" />
+      <workItem from="1610294379210" duration="2729000" />
+      <workItem from="1610373241531" duration="621000" />
+      <workItem from="1610450010550" duration="5708000" />
+      <workItem from="1610457844546" duration="11000" />
+      <workItem from="1610459625041" duration="27000" />
+      <workItem from="1610705240982" duration="3870000" />
+      <workItem from="1610715533068" duration="853000" />
+      <workItem from="1610816293582" duration="1437000" />
+      <workItem from="1610981174395" duration="167000" />
+      <workItem from="1611067987994" duration="15000" />
+      <workItem from="1611255831499" duration="79000" />
+      <workItem from="1611255928479" duration="5000" />
+      <workItem from="1611911268253" duration="43000" />
+      <workItem from="1611911558584" duration="1653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609166619125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1609166619125" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609775276743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609775276743" />
+  </component>
+</project>
